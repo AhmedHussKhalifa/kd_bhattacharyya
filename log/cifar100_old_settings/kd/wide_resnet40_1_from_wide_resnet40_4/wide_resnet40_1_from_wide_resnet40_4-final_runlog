@@ -1,0 +1,19 @@
+2023-02-16 11:43:15,925	INFO	torchdistill.common.main_util	ckpt file is not found at `./resource/ckpt/cifar100/kd/cifar100-wide_resnet40_1_from_wide_resnet40_4-final_run.pt`
+2023-02-16 11:43:15,936	INFO	__main__	[Teacher: wide_resnet40_4]
+2023-02-16 11:43:18,375	INFO	torchdistill.misc.log	Test:  [   0/5000]  eta: 3:23:10  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 2.4381  data: 0.7254  max mem: 346
+2023-02-16 11:43:23,837	INFO	torchdistill.misc.log	Test:  [1000/5000]  eta: 0:00:31  acc1: 100.0000 (77.7223)  acc5: 100.0000 (93.7063)  time: 0.0056  data: 0.0001  max mem: 346
+2023-02-16 11:43:29,205	INFO	torchdistill.misc.log	Test:  [2000/5000]  eta: 0:00:19  acc1: 100.0000 (78.4608)  acc5: 100.0000 (93.9530)  time: 0.0048  data: 0.0001  max mem: 346
+2023-02-16 11:43:34,357	INFO	torchdistill.misc.log	Test:  [3000/5000]  eta: 0:00:12  acc1: 100.0000 (77.9074)  acc5: 100.0000 (93.6688)  time: 0.0052  data: 0.0001  max mem: 346
+2023-02-16 11:43:39,668	INFO	torchdistill.misc.log	Test:  [4000/5000]  eta: 0:00:05  acc1: 100.0000 (78.8053)  acc5: 100.0000 (94.1265)  time: 0.0051  data: 0.0001  max mem: 346
+2023-02-16 11:43:44,902	INFO	torchdistill.misc.log	Test: Total time: 0:00:28
+2023-02-16 11:43:44,903	INFO	__main__	 * Acc@1 79.4400	Acc@5 94.2300
+
+2023-02-16 11:43:44,909	INFO	__main__	[Student: wide_resnet]
+2023-02-16 11:43:45,875	INFO	torchdistill.misc.log	Test:  [   0/5000]  eta: 1:20:26  acc1: 0.0000 (0.0000)  acc5: 0.0000 (0.0000)  time: 0.9654  data: 0.9473  max mem: 346
+2023-02-16 11:43:50,198	INFO	torchdistill.misc.log	Test:  [1000/5000]  eta: 0:00:21  acc1: 0.0000 (1.1988)  acc5: 0.0000 (3.9960)  time: 0.0042  data: 0.0001  max mem: 346
+2023-02-16 11:43:54,693	INFO	torchdistill.misc.log	Test:  [2000/5000]  eta: 0:00:14  acc1: 0.0000 (1.0495)  acc5: 0.0000 (4.6977)  time: 0.0045  data: 0.0001  max mem: 346
+2023-02-16 11:43:59,199	INFO	torchdistill.misc.log	Test:  [3000/5000]  eta: 0:00:09  acc1: 0.0000 (0.9663)  acc5: 0.0000 (4.6984)  time: 0.0045  data: 0.0001  max mem: 346
+2023-02-16 11:44:04,347	INFO	torchdistill.misc.log	Test:  [4000/5000]  eta: 0:00:04  acc1: 0.0000 (0.9248)  acc5: 0.0000 (4.7738)  time: 0.0044  data: 0.0001  max mem: 346
+2023-02-16 11:44:09,120	INFO	torchdistill.misc.log	Test: Total time: 0:00:24
+2023-02-16 11:44:09,121	INFO	__main__	 * Acc@1 0.9300	Acc@5 4.8800
+
